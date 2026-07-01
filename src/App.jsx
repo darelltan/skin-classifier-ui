@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import axios from "axios";
 
-const API = "https://renomaaaa-skin-classifier.hf.space";
+const API = "https://renomaaaa-skin-classifier-api.hf.space";
 
 const CLASS_LABELS = {
   melanoma:   { label: "Melanoma",            color: "#dc2626" },
